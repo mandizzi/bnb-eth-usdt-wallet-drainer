@@ -4,7 +4,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
+/* Everything but the jumbotron gets side spacing for mobile-first views */
 .header,
 .marketing,
 .footer {
@@ -17,6 +17,7 @@ body {
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
 }
+
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
@@ -37,6 +38,7 @@ body {
     max-width: 730px;
   }
 }
+
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -44,17 +46,47 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  background-color: #ff5722; /* Bright orange background */
+  color: #ffffff; /* White text color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 2rem 1rem; /* Generous padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  border-bottom: 1px solid #e5e5e5; /* Light border at the bottom */
 }
+
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+  background-color: #ffffff; /* White background for button */
+  color: #ff5722; /* Orange text for button */
+  border: 2px solid #ff5722; /* Orange border for button */
+  border-radius: 8px; /* Rounded corners for button */
+}
+
+.jumbotron h1 {
+  font-size: 3.5rem; /* Large font size */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 1rem; /* Space below the title */
+  color: #ffffff; /* White text color */
+}
+
+.jumbotron h2 {
+  font-size: 2rem; /* Slightly smaller font size */
+  font-weight: 500; /* Medium weight */
+  margin-bottom: 1.5rem; /* Space below the subheading */
+  color: #fff3e0; /* Light white color for a softer look */
+}
+
+.jumbotron p {
+  font-size: 1.2rem; /* Slightly larger font size */
+  color: #ffffff; /* White text color */
 }
 
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
 }
+
 .marketing p + h4 {
   margin-top: 28px;
 }
